@@ -9,7 +9,7 @@ TO_CHATS = set(int(x) for x in os.environ.get("TO_CHATS", "").split())
 # required to Movies information
 OMDB_KEY = environ.get("OMDB_KEY", "")
 
-RE1TXT = os.environ.get("RE1TXT", "@Username1")
+RE1TXT = os.environ.get("RE1TXT", "https://player.mrfooll.xyz/watch")
 RE2TXT = os.environ.get("RE2TXT", "@Username1")
 RE3TXT = os.environ.get("RE3TXT", "⚠️ Uploaded By @HQFilms4U")
 RE4TXT = os.environ.get("RE4TXT", "@Username3")
